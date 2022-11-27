@@ -6,6 +6,7 @@ on:
       - "main"
       
 jobs:
+  name: "Build and push"
   build:
     runs-on: ubuntu-latest
     steps:
