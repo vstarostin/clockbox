@@ -9,13 +9,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      name: First step
+    - name: First step
       run: echo Hello World from test
 
   deploy:
     runs-on: ubuntu-latest
     steps:
-      name: Second step
+    - name: Second step
       run: |
         echo first line
         echo second line
