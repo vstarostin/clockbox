@@ -1,0 +1,23 @@
+name: Github_Action_Basics
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  build:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      name: First step
+      run: echo Hello World from test
+
+  build:
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+      name: Second step
+      run: |
+        echo first line
+        echo second line
